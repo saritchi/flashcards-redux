@@ -20,7 +20,7 @@ export const quizzesSlice = createSlice({
 })
 
 export const addQuizThunk = (quiz) => {
-    const {name, topicId, cardIds, id} = quiz;
+    const {id, name, topicId, cardIds} = quiz;
     return (dispatch) => {
         dispatch(quizzesSlice.actions.addQuiz(quiz))
         dispatch(addQuizId({
