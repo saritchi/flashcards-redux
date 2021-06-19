@@ -1,26 +1,17 @@
-# To Run
+# Flashcards Redux
+
+A flashcard study tool, where you can create quizzes/cards and organize them under certain topics for studying. 
+
+## General Information
+
+Flashcards Redux is a React application built with Redux. State is managed by the topics, quizzes, and cards slices. This is a React-Redux project from Codecademy's Full Stack Developer course. The goal of this project is to practice implmenting redux into a React app.
+
+## Technologies
+
+* React
+* React-Redux
+* React-Router
+
+## To Run
 
 Run `npm start` in the project root and the app will be available on port 3000.
-
-# State
-
-The app's state is totally normalized, with slices for topics, quizzes, and cards.
-
-# Routes
-
-- `/new-topic` – form to create a new topic
-- `/topics` – index of all topics
-- `/topics/:topicId` – page for an individual topic
-- `/new-quiz` – form to create a new quiz
-- `/quizzes` – index of all quizzes
-- `/quizzes/:quizId` – page for an individual quiz
-
-# To Test
-
-1. Create topics
-2. Create quizzes
-3. Visit the page for an individual quiz and flip the cards over
-
-# Questions
-
-Is this appropriately scoped? Does it have too many features? Too few?
